@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1,
+        "name": "Ação",
+        "releaseDate": "1970s",
+        "description": "Jogos que enfatizam desafios físicos, incluindo combate, plataformas e reflexos rápidos.",
+        "details": {
+            "mechanics": ["Combate em tempo real", "Reflexos rápidos", "Coordenação motora", "Plataformas"],
+            "examples": ["DOOM Eternal", "Devil May Cry 5", "Hollow Knight"],
+            "subgenres": ["Beat 'em up", "Hack and Slash", "Plataforma"],
+            "keyFeatures": ["Gameplay dinâmico", "Movimentação ágil", "Sistema de combate", "Progressão de habilidades"]
+        }
+    },
+    {
+        "id": 2,
+        "name": "RPG",
+        "releaseDate": "1974",
+        "description": "Role-Playing Games onde jogadores assumem papéis de personagens em mundos fictícios.",
+        "details": {
+            "mechanics": ["Sistema de níveis", "Progressão de personagem", "História profunda", "Escolhas morais"],
+            "examples": ["The Witcher 3", "Skyrim", "Final Fantasy VII Remake"],
+            "subgenres": ["JRPG", "WRPG", "Action RPG", "Tactical RPG"],
+            "keyFeatures": ["Desenvolvimento de personagem", "Sistema de experiência", "Equipamentos", "Mundo aberto"]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Estratégia",
+        "releaseDate": "1980s",
+        "description": "Jogos que enfatizam planejamento, gestão de recursos e tomada de decisões táticas.",
+        "details": {
+            "mechanics": ["Gestão de recursos", "Planejamento tático", "Controle de unidades", "Construção base"],
+            "examples": ["Civilization VI", "StarCraft II", "Total War series"],
+            "subgenres": ["RTS", "Turn-based", "4X", "Tower Defense"],
+            "keyFeatures": ["Pensamento estratégico", "Gestão complexa", "Competição intelectual", "Longos períodos de jogo"]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Aventura",
+        "releaseDate": "1970s",
+        "description": "Foco em exploração, resolução de quebra-cabeças e narrativa, geralmente sem combate intenso.",
+        "details": {
+            "mechanics": ["Exploração", "Quebra-cabeças", "Coleta de itens", "Diálogos"],
+            "examples": ["The Legend of Zelda", "Life is Strange", "Monkey Island"],
+            "subgenres": ["Point-and-click", "Visual Novel", "Walking Simulator"],
+            "keyFeatures": ["Narrativa envolvente", "Mundo para explorar", "Missões", "Personagens memoráveis"]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Simulação",
+        "releaseDate": "1980s",
+        "description": "Recream ambientes e situações reais ou fictícias para simular experiências.",
+        "details": {
+            "mechanics": ["Gestão realista", "Simulação física", "Construção", "Personalização"],
+            "examples": ["The Sims 4", "Microsoft Flight Simulator", "Cities: Skylines"],
+            "subgenres": ["Life Sim", "Vehicle Sim", "City Builder", "Farming Sim"],
+            "keyFeatures": ["Realismo", "Liberdade criativa", "Sistemas complexos", "Longevidade"]
+        }
+    },
+    {
+        "id": 6,
+        "name": "Esporte",
+        "releaseDate": "1950s",
+        "description": "Simulam esportes reais ou fictícios, competindo individualmente ou em equipe.",
+        "details": {
+            "mechanics": ["Controles precisos", "Física realista", "Competição", "Estatísticas"],
+            "examples": ["FIFA 23", "NBA 2K23", "Rocket League"],
+            "subgenres": ["Futebol", "Basquete", "Corrida", "Esportes radicais"],
+            "keyFeatures": ["Licenças oficiais", "Modo carreira", "Multiplayer", "Realismo gráfico"]
+        }
+    },
+    {
+        "id": 7,
+        "name": "Terror",
+        "releaseDate": "1990s",
+        "description": "Criam atmosferas de medo, tensão e suspense, geralmente com elementos sobrenaturais.",
+        "details": {
+            "mechanics": ["Sobrevivência", "Recursos limitados", "Atmosfera opressora", "Jump scares"],
+            "examples": ["Resident Evil Village", "Silent Hill 2", "Outlast"],
+            "subgenres": ["Survival Horror", "Psychological Horror", "Jump Scare"],
+            "keyFeatures": ["Ambiente sombrio", "História misteriosa", "Personagens vulneráveis", "Áudio imersivo"]
+        }
+    },
+    {
+        "id": 8,
+        "name": "Puzzle",
+        "releaseDate": "1980s",
+        "description": "Desafiam a mente do jogador com problemas lógicos, padrões e raciocínio.",
+        "details": {
+            "mechanics": ["Resolução de problemas", "Lógica", "Padrões", "Sequências"],
+            "examples": ["Tetris Effect", "Portal 2", "The Witness"],
+            "subgenres": ["Match-3", "Physics Puzzle", "Logic Puzzle", "Word Puzzle"],
+            "keyFeatures": ["Desafio mental", "Progressão gradual", "Mecânicas simples", "Viciante"]
+        }
+    },
+    {
+        "id": 9,
+        "name": "Battle Royale",
+        "releaseDate": "2017",
+        "description": "Múltiplos jogadores competem até restar apenas um sobrevivente.",
+        "details": {
+            "mechanics": ["Sobrevivência", "Zona de segurança", "Loot aleatório", "Último sobrevivente"],
+            "examples": ["Fortnite", "PUBG", "Apex Legends"],
+            "subgenres": ["Shooter BR", "Melee BR", "Building BR"],
+            "keyFeatures": ["Partidas curtas", "Mapa encolhendo", "Multiplayer massivo", "Rejogabilidade"]
+        }
+    },
+    {
+        "id": 10,
+        "name": "MMORPG",
+        "releaseDate": "1997",
+        "description": "RPGs online massivos onde milhares de jogadores compartilham um mundo persistente.",
+        "details": {
+            "mechanics": ["Progressão contínua", "Raids cooperativas", "Economia virtual", "Guildas"],
+            "examples": ["World of Warcraft", "Final Fantasy XIV", "Guild Wars 2"],
+            "subgenres": ["Fantasy MMORPG", "Sci-fi MMORPG", "Sandbox MMORPG"],
+            "keyFeatures": ["Mundo persistente", "Socialização", "Endgame content", "Subscrição/F2P"]
+        }
+    },
+    {
+        "id": 11,
+        "name": "Roguelike",
+        "releaseDate": "1980",
+        "description": "Jogos com progressão procedural, morte permanente e alta dificuldade.",
+        "details": {
+            "mechanics": ["Morte permanente", "Níveis procedurais", "Progressão entre runs", "Itens aleatórios"],
+            "examples": ["Hades", "Dead Cells", "The Binding of Isaac"],
+            "subgenres": ["Traditional Roguelike", "Roguelite", "Deckbuilder Roguelike"],
+            "keyFeatures": ["Alta dificuldade", "Rejogabilidade", "Aprendizado contínuo", "Progressão persistente"]
+        }
+    },
+    {
+        "id": 12,
+        "name": "Sandbox",
+        "releaseDate": "2009",
+        "description": "Oferecem liberdade total para criar, explorar e modificar o mundo do jogo.",
+        "details": {
+            "mechanics": ["Construção livre", "Modificação do mundo", "Criação de conteúdo", "Exploração"],
+            "examples": ["Minecraft", "Terraria", "Garry's Mod"],
+            "subgenres": ["Survival Sandbox", "Creative Sandbox", "Physics Sandbox"],
+            "keyFeatures": ["Liberdade total", "Criatividade", "Modding", "Multiplayer colaborativo"]
+        }
+    },
+    {
+        "id": 13,
+        "name": "MOBA",
+        "releaseDate": "2003",
+        "description": "Arenas de batalha online para múltiplos jogadores, focadas em estratégia de equipe e combate.",
+        "details": {
+            "mechanics": ["Controle de heróis", "Trabalho em equipe", "Destruição de base inimiga", "Progressão em partida"],
+            "examples": ["League of Legends", "Dota 2", "Smite"],
+            "subgenres": ["Top-down MOBA", "Third-person MOBA"],
+            "keyFeatures": ["Competitivo", "Estratégia em tempo real", "Personagens únicos", "Constantes atualizações"]
+        }
+    },
+    {
+        "id": 14,
+        "name": "Luta",
+        "releaseDate": "1980s",
+        "description": "Combate um contra um entre dois personagens com conjuntos de movimentos únicos.",
+        "details": {
+            "mechanics": ["Combos", "Movimentos especiais", "Defesa", "Barra de vida"],
+            "examples": ["Street Fighter 6", "Mortal Kombat 1", "Tekken 8"],
+            "subgenres": ["2D Fighter", "3D Fighter", "Platform Fighter"],
+            "keyFeatures": ["Competição acirrada", "Habilidade técnica", "Personagens icônicos", "Multiplayer local e online"]
+        }
+    },
+    {
+        "id": 15,
+        "name": "Furtividade (Stealth)",
+        "releaseDate": "1981",
+        "description": "Jogos que incentivam o uso de táticas furtivas para evitar ou superar inimigos.",
+        "details": {
+            "mechanics": ["Esconder-se", "Movimento silencioso", "Nocautes não-letais", "Distrações"],
+            "examples": ["Metal Gear Solid V", "Dishonored 2", "Splinter Cell: Blacklist"],
+            "subgenres": ["Social Stealth", "Action Stealth"],
+            "keyFeatures": ["Tensão constante", "Planejamento cuidadoso", "Liberdade de abordagem", "Inteligência artificial desafiadora"]
+        }
+    },
+    {
+        "id": 16,
+        "name": "Corrida",
+        "releaseDate": "1970s",
+        "description": "Competições de velocidade com veículos, seja em circuitos realistas ou pistas fantásticas.",
+        "details": {
+            "mechanics": ["Direção precisa", "Drift", "Uso de nitro", "Customização de veículos"],
+            "examples": ["Forza Horizon 5", "Gran Turismo 7", "Mario Kart 8 Deluxe"],
+            "subgenres": ["Sim-racing", "Arcade Racing", "Kart Racing"],
+            "keyFeatures": ["Sensação de velocidade", "Gráficos realistas", "Competição online", "Veículos licenciados"]
+        }
+    },
+    {
+        "id": 17,
+        "name": "Ritmo",
+        "releaseDate": "1996",
+        "description": "Jogadores interagem com a música, pressionando botões em sincronia com o ritmo.",
+        "details": {
+            "mechanics": ["Sincronia", "Combinação de botões", "Pontuação baseada em precisão", "Diferentes níveis de dificuldade"],
+            "examples": ["Beat Saber", "Guitar Hero", "Dance Dance Revolution"],
+            "subgenres": ["Music Simulation", "Rhythm Action"],
+            "keyFeatures": ["Trilha sonora contagiante", "Jogabilidade viciante", "Desafio de coordenação", "Periféricos temáticos"]
+        }
+    },
+    {
+        "id": 18,
+        "name": "Jogo de Cartas",
+        "releaseDate": "Antiguidade",
+        "description": "Jogos que usam cartas como o principal elemento de jogabilidade.",
+        "details": {
+            "mechanics": ["Construção de baralho", "Gerenciamento de mão", "Efeitos de cartas", "Sinergia"],
+            "examples": ["Hearthstone", "Magic: The Gathering Arena", "Slay the Spire"],
+            "subgenres": ["Collectible Card Game (CCG)", "Deck-building Game", "Living Card Game (LCG)"],
+            "keyFeatures": ["Estratégia profunda", "Colecionismo", "Sorte e habilidade", "Constantes expansões"]
+        }
+    },
+    {
+        "id": 19,
+        "name": "Jogo de Tabuleiro",
+        "releaseDate": "Antiguidade",
+        "description": "Versões digitais de jogos de tabuleiro clássicos ou modernos.",
+        "details": {
+            "mechanics": ["Movimento em tabuleiro", "Lançamento de dados", "Gerenciamento de recursos", "Negociação"],
+            "examples": ["Catan Universe", "Ticket to Ride", "Gloomhaven Digital"],
+            "subgenres": ["Eurogame", "Ameritrash", "Wargame de Tabuleiro"],
+            "keyFeatures": ["Interação social", "Regras complexas", "Componentes digitais", "Jogabilidade estratégica"]
+        }
+    },
+    {
+        "id": 20,
+        "name": "Educacional",
+        "releaseDate": "1970s",
+        "description": "Projetado para ensinar um determinado assunto ou habilidade de forma lúdica.",
+        "details": {
+            "mechanics": ["Resolução de problemas", "Quizzes", "Simulações educativas", "Repetição espaçada"],
+            "examples": ["Duolingo", "Kerbal Space Program", "Minecraft: Education Edition"],
+            "subgenres": ["Aprendizado de idiomas", "Matemática", "Programação"],
+            "keyFeatures": ["Aprendizagem divertida", "Feedback imediato", "Progressão estruturada", "Aplicação prática"]
+        }
+    },
+    {
+        "id": 21,
+        "name": "Trivia",
+        "releaseDate": "1980s",
+        "description": "Testa o conhecimento dos jogadores sobre diversos assuntos através de perguntas e respostas.",
+        "details": {
+            "mechanics": ["Múltipla escolha", "Verdadeiro ou falso", "Respostas abertas", "Competição de pontos"],
+            "examples": ["Jackbox Party Pack", "Trivia Crack", "Who Wants to Be a Millionaire?"],
+            "subgenres": ["Conhecimentos gerais", "Cultura pop", "História"],
+            "keyFeatures": ["Competição social", "Desafio intelectual", "Ampla variedade de temas", "Diversão em grupo"]
+        }
+    },
+    {
+        "id": 22,
+        "name": "Jogo de Festa (Party Game)",
+        "releaseDate": "1980s",
+        "description": "Jogos projetados para serem jogados em grupos, geralmente com regras simples e foco na diversão.",
+        "details": {
+            "mechanics": ["Minigames", "Competição amigável", "Controles simples", "Jogabilidade caótica"],
+            "examples": ["Mario Party Superstars", "Overcooked! 2", "Among Us"],
+            "subgenres": ["Co-op caótico", "Minigame collection", "Social deduction"],
+            "keyFeatures": ["Fácil de aprender", "Altamente social", "Risadas garantidas", "Ideal para grupos"]
+        }
+    },
+    {
+        "id": 23,
+        "name": "Metroidvania",
+        "releaseDate": "1986",
+        "description": "Subgênero de ação-aventura com um grande mapa interconectado que é explorado de forma não linear.",
+        "details": {
+            "mechanics": ["Exploração não linear", "Aquisição de habilidades", "Backtracking", "Combate e plataforma"],
+            "examples": ["Hollow Knight", "Metroid Dread", "Castlevania: Symphony of the Night"],
+            "subgenres": [],
+            "keyFeatures": ["Sensação de descoberta", "Progressão de personagem", "Design de mapa inteligente", "Chefes desafiadores"]
+        }
+    },
+    {
+        "id": 24,
+        "name": "Soulslike",
+        "releaseDate": "2009",
+        "description": "RPGs de ação conhecidos por sua alta dificuldade e combate metódico.",
+        "details": {
+            "mechanics": ["Combate deliberado", "Stamina", "Esquiva e aparo (parry)", "Morte punitiva"],
+            "examples": ["Elden Ring", "Dark Souls III", "Bloodborne"],
+            "subgenres": [],
+            "keyFeatures": ["Dificuldade recompensadora", "Atmosfera sombria", "Narrativa ambiental", "Chefes memoráveis"]
+        }
+    },
+    {
+        "id": 25,
+        "name": "Grande Estratégia (Grand Strategy)",
+        "releaseDate": "2000s",
+        "description": "Jogos de estratégia complexos que cobrem longos períodos de tempo e envolvem gestão de nações.",
+        "details": {
+            "mechanics": ["Diplomacia", "Guerra", "Economia", "Gestão de império"],
+            "examples": ["Crusader Kings III", "Europa Universalis IV", "Stellaris"],
+            "subgenres": [],
+            "keyFeatures": ["Profundidade estratégica", "Simulação histórica (ou de ficção científica)", "Rejogabilidade infinita", "Curva de aprendizado íngreme"]
+        }
+    },
+    {
+        "id": 26,
+        "name": "4X",
+        "releaseDate": "1991",
+        "description": "Jogos de estratégia onde o jogador controla um império e deve 'eXplorar, eXpandir, eXtrair e eXterminar'.",
+        "details": {
+            "mechanics": ["Exploração de mapa", "Construção de cidades", "Pesquisa tecnológica", "Combate tático"],
+            "examples": ["Civilization VI", "Endless Legend", "Stellaris"],
+            "subgenres": ["Fantasia 4X", "Ficção Científica 4X", "Histórico 4X"],
+            "keyFeatures": ["Jogabilidade em turnos", "Desenvolvimento de império", "Árvores de tecnologia", "Múltiplas condições de vitória"]
+        }
+    },
+    {
+        "id": 27,
+        "name": "Estratégia em Tempo Real (RTS)",
+        "releaseDate": "1992",
+        "description": "Jogadores tomam decisões e dão comandos simultaneamente em tempo real.",
+        "details": {
+            "mechanics": ["Coleta de recursos", "Construção de base", "Controle de unidades", "Micro e macrogerenciamento"],
+            "examples": ["StarCraft II", "Age of Empires IV", "Company of Heroes 2"],
+            "subgenres": [],
+            "keyFeatures": ["Ritmo acelerado", "Multitarefa", "APM (Ações por Minuto)", "Competitivo online"]
+        }
+    },
+    {
+        "id": 28,
+        "name": "Estratégia Baseada em Turnos (TBS)",
+        "releaseDate": "1980s",
+        "description": "Jogadores se revezam para tomar suas decisões, permitindo um planejamento cuidadoso.",
+        "details": {
+            "mechanics": ["Movimento em grade", "Pontos de ação", "Planejamento tático", "Unidades com habilidades"],
+            "examples": ["XCOM 2", "Civilization VI", "Into the Breach"],
+            "subgenres": ["Táticas por turno", "Grande Estratégia por turno"],
+            "keyFeatures": ["Pensamento estratégico", "Sem pressão de tempo", "Tomada de decisão significativa", "Combate tático profundo"]
+        }
+    },
+    {
+        "id": 29,
+        "name": "Defesa de Torre (Tower Defense)",
+        "releaseDate": "2000s",
+        "description": "O objetivo é defender um território ou posses de ondas de inimigos, construindo torres defensivas.",
+        "details": {
+            "mechanics": ["Construção de torres", "Melhoria de torres", "Gerenciamento de recursos", "Caminhos de inimigos"],
+            "examples": ["Bloons TD 6", "Plants vs. Zombies", "Kingdom Rush"],
+            "subgenres": ["TD de caminho fixo", "TD de caminho livre"],
+            "keyFeatures": ["Jogabilidade viciante", "Estratégia de posicionamento", "Progressão de dificuldade", "Variedade de torres e inimigos"]
+        }
+    },
+    {
+        "id": 30,
+        "name": "Visual Novel",
+        "releaseDate": "1983",
+        "description": "Ficção interativa com foco na narrativa, geralmente apresentada com texto sobre um fundo estático.",
+        "details": {
+            "mechanics": ["Leitura", "Tomada de decisões", "Múltiplos finais", "Rotas de personagens"],
+            "examples": ["Doki Doki Literature Club!", "Phoenix Wright: Ace Attorney Trilogy", "Steins;Gate"],
+            "subgenres": ["Dating Sim", "Mistério", "Terror Psicológico"],
+            "keyFeatures": ["História rica", "Arte em estilo anime", "Desenvolvimento de personagens", "Finais múltiplos"]
+        }
+    },
+    {
+        "id": 31,
+        "name": "Ficção Interativa",
+        "releaseDate": "1975",
+        "description": "Jogos baseados em texto onde o jogador digita comandos para interagir com o mundo.",
+        "details": {
+            "mechanics": ["Analisador de texto (parser)", "Comandos de texto", "Exploração baseada em descrição", "Resolução de quebra-cabeças"],
+            "examples": ["Zork", "The Hitchhiker's Guide to the Galaxy", "80 Days"],
+            "subgenres": ["Aventura de texto", "CYOA (Choose Your Own Adventure)"],
+            "keyFeatures": ["Imersão através da imaginação", "Narrativa rica", "Liberdade de ação (limitada pelo parser)", "Foco na leitura"]
+        }
+    },
+    {
+        "id": 32,
+        "name": "Simulador Imersivo (Immersive Sim)",
+        "releaseDate": "1992",
+        "description": "Jogos que enfatizam a escolha do jogador e a emergência de jogabilidade através de sistemas interativos complexos.",
+        "details": {
+            "mechanics": ["Sistemas de jogo interconectados", "Múltiplas soluções para problemas", "Simulação de física e IA", "Escolha do jogador"],
+            "examples": ["Deus Ex", "Dishonored", "Prey (2017)"],
+            "subgenres": [],
+            "keyFeatures": ["Liberdade de abordagem", "Mundos reativos", "Jogabilidade emergente", "Narrativa guiada pelo jogador"]
+        }
+    }
+]
