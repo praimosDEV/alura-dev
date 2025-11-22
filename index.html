@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados de Gêneros de Jogos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        /* Define a imagem de fundo */
+        background-image: url('imagem.png');
+        
+        /* Garante que a imagem cubra toda a tela */
+        background-size: cover;
+        
+        /* Centraliza a imagem */
+        background-position: center;
+        
+        /* Impede que a imagem se repita */
+        background-repeat: no-repeat;
+        
+        /* Mantém a imagem fixa durante a rolagem da página */
+        background-attachment: fixed;
+
+        /* Adiciona uma sobreposição escura e semitransparente */
+        background-color: rgba(20, 20, 80, 0.6);
+        background-blend-mode: multiply;
+    }
+</style>
+<body>
+    <div class="container">
+        <header>
+            <h1>Banco de Dados de Gêneros de Jogos</h1>
+            <p>Conheça os diferentes gêneros e suas características</p>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Pesquisar gênero..." autocomplete="off">
+        </div>
+
+        <div class="genres-grid" id="genresGrid">
+            <!-- Cards serão inseridos dinamicamente -->
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalBody">
+                    <!-- Conteúdo do modal -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
