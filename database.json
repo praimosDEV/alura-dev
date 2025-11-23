@@ -382,5 +382,245 @@
             "subgenres": [],
             "keyFeatures": ["Liberdade de abordagem", "Mundos reativos", "Jogabilidade emergente", "Narrativa guiada pelo jogador"]
         }
+    },
+    {
+        "id": 33,
+        "name": "Tiro em Primeira Pessoa (FPS)",
+        "releaseDate": "1992",
+        "description": "Jogos de tiro onde a perspectiva é a dos olhos do personagem, focados em combate rápido e preciso.",
+        "details": {
+            "mechanics": ["Mira precisa", "Combate com armas de fogo", "Movimentação rápida", "Mapas multiplayer"],
+            "examples": ["Counter-Strike 2", "Call of Duty: Modern Warfare III", "DOOM Eternal"],
+            "subgenres": ["Hero Shooter", "Tactical Shooter", "Arena Shooter"],
+            "keyFeatures": ["Perspectiva imersiva", "Competitivo", "Reflexos rápidos", "Variedade de armas"]
+        }
+    },
+    {
+        "id": 34,
+        "name": "Tiro em Terceira Pessoa (TPS)",
+        "releaseDate": "1996",
+        "description": "Jogos de tiro onde a câmera fica posicionada atrás do personagem, permitindo uma visão mais ampla do ambiente e do personagem.",
+        "details": {
+            "mechanics": ["Sistema de cobertura (cover)", "Combate com armas de fogo", "Visão ampla do cenário", "Esquiva"],
+            "examples": ["Gears of War 5", "The Last of Us Part II", "Fortnite"],
+            "subgenres": ["Cover-based Shooter", "Action-adventure Shooter"],
+            "keyFeatures": ["Visão tática do campo de batalha", "Movimentação do personagem", "Combinação de tiro e ação", "Narrativa cinematográfica"]
+        }
+    },
+    {
+        "id": 35,
+        "name": "Plataforma",
+        "releaseDate": "1981",
+        "description": "Jogos cujo principal desafio é pular e escalar entre plataformas para progredir.",
+        "details": {
+            "mechanics": ["Pulo preciso", "Coleta de itens", "Esquiva de obstáculos", "Exploração de níveis"],
+            "examples": ["Super Mario Odyssey", "Celeste", "Crash Bandicoot 4: It's About Time"],
+            "subgenres": ["Plataforma 2D", "Plataforma 3D", "Precision Platformer"],
+            "keyFeatures": ["Design de níveis criativo", "Controles responsivos", "Desafio de habilidade", "Personagens carismáticos"]
+        }
+    },
+    {
+        "id": 36,
+        "name": "Sobrevivência",
+        "releaseDate": "1990s",
+        "description": "Jogos onde o objetivo principal é sobreviver em um ambiente hostil, gerenciando recursos como fome, sede e saúde.",
+        "details": {
+            "mechanics": ["Coleta de recursos", "Criação de itens (crafting)", "Construção de abrigos", "Gerenciamento de necessidades"],
+            "examples": ["Minecraft (Survival Mode)", "Rust", "The Long Dark"],
+            "subgenres": ["Survival Horror", "Open-world Survival Craft"],
+            "keyFeatures": ["Mundo aberto", "Tensão constante", "Liberdade de ação", "Emergência de narrativas"]
+        }
+    },
+    {
+        "id": 37,
+        "name": "Hack and Slash",
+        "releaseDate": "1980s",
+        "description": "Subgênero de ação focado em combate corpo a corpo contra um grande número de inimigos.",
+        "details": {
+            "mechanics": ["Combos elaborados", "Combate em massa", "Habilidades especiais", "Progressão de personagem"],
+            "examples": ["Devil May Cry 5", "God of War", "Diablo IV"],
+            "subgenres": ["Character Action", "Musou", "Action RPG"],
+            "keyFeatures": ["Combate estiloso", "Ação frenética", "Poderes espetaculares", "Chefes desafiadores"]
+        }
+    },
+    {
+        "id": 38,
+        "name": "Beat 'em up",
+        "releaseDate": "1984",
+        "description": "Jogos de combate corpo a corpo que progridem através de níveis lineares, derrotando ondas de inimigos.",
+        "details": {
+            "mechanics": ["Combate corpo a corpo", "Progressão lateral (side-scrolling)", "Cooperativo local", "Ataques especiais"],
+            "examples": ["Streets of Rage 4", "Teenage Mutant Ninja Turtles: Shredder's Revenge", "Final Fight"],
+            "subgenres": ["Belt Scroller", "3D Beat 'em up"],
+            "keyFeatures": ["Ação cooperativa", "Jogabilidade arcade", "Nostalgia", "Simples e divertido"]
+        }
+    },
+    {
+        "id": 39,
+        "name": "Shoot 'em up (Shmup)",
+        "releaseDate": "1978",
+        "description": "Jogos onde o jogador controla uma nave ou personagem que deve atirar em um grande número de inimigos enquanto desvia de seus projéteis.",
+        "details": {
+            "mechanics": ["Desviar de projéteis (bullet hell)", "Power-ups", "Padrões de inimigos", "Pontuação alta (high score)"],
+            "examples": ["Ikaruga", "Gradius V", "Enter the Gungeon"],
+            "subgenres": ["Bullet Hell", "Vertical Scrolling Shooter", "Horizontal Scrolling Shooter"],
+            "keyFeatures": ["Desafio intenso", "Ação ininterrupta", "Padrões complexos", "Rejogabilidade por pontuação"]
+        }
+    },
+    {
+        "id": 40,
+        "name": "RPG de Ação (Action RPG)",
+        "releaseDate": "1984",
+        "description": "Combina elementos de RPG, como progressão de personagem, com combate em tempo real de jogos de ação.",
+        "details": {
+            "mechanics": ["Combate em tempo real", "Sistema de loot", "Árvore de habilidades", "Exploração de mundo"],
+            "examples": ["Elden Ring", "Diablo IV", "The Witcher 3: Wild Hunt"],
+            "subgenres": ["Dungeon Crawler", "Soulslike", "Looter-slasher"],
+            "keyFeatures": ["Combate dinâmico", "Customização de personagem", "Mundo rico em detalhes", "História e jogabilidade integradas"]
+        }
+    },
+    {
+        "id": 41,
+        "name": "RPG Tático (Tactical RPG)",
+        "releaseDate": "1988",
+        "description": "RPGs que enfatizam o combate estratégico em um campo de batalha dividido por grades (grid), com movimentação por turnos.",
+        "details": {
+            "mechanics": ["Combate por turnos", "Movimentação em grade", "Posicionamento estratégico", "Classes de unidades"],
+            "examples": ["Final Fantasy Tactics", "Fire Emblem: Three Houses", "XCOM 2"],
+            "subgenres": ["Strategy RPG (SRPG)"],
+            "keyFeatures": ["Profundidade tática", "Planejamento cuidadoso", "Desenvolvimento de unidades", "Consequências permanentes (permadeath)"]
+        }
+    },
+    {
+        "id": 42,
+        "name": "JRPG (RPG Japonês)",
+        "releaseDate": "1986",
+        "description": "RPGs originados no Japão, frequentemente caracterizados por narrativas lineares, combate por turnos e um estilo de arte distinto.",
+        "details": {
+            "mechanics": ["Combate por turnos", "Narrativa focada nos personagens", "Sistema de magias e habilidades", "Grinding"],
+            "examples": ["Final Fantasy VII Remake", "Persona 5 Royal", "Dragon Quest XI S"],
+            "subgenres": ["Turn-based JRPG", "Action JRPG"],
+            "keyFeatures": ["Histórias épicas", "Personagens memoráveis", "Estilo de arte anime/mangá", "Trilhas sonoras marcantes"]
+        }
+    },
+    {
+        "id": 43,
+        "name": "Simulador de Fazenda (Farming Sim)",
+        "releaseDate": "1996",
+        "description": "Jogos focados no gerenciamento de uma fazenda, incluindo plantio, colheita e criação de animais.",
+        "details": {
+            "mechanics": ["Plantio e colheita", "Criação de animais", "Gerenciamento de tempo e recursos", "Interação social com NPCs"],
+            "examples": ["Stardew Valley", "Animal Crossing: New Horizons", "Story of Seasons"],
+            "subgenres": ["Life Sim"],
+            "keyFeatures": ["Jogabilidade relaxante", "Ciclo de dia e noite", "Customização", "Sensação de progresso"]
+        }
+    },
+    {
+        "id": 44,
+        "name": "Simulador de Construção e Gestão",
+        "releaseDate": "1989",
+        "description": "Jogos onde o jogador constrói, expande e gerencia comunidades, cidades ou negócios com recursos limitados.",
+        "details": {
+            "mechanics": ["Construção", "Gerenciamento de recursos", "Planejamento urbano/logístico", "Simulação econômica"],
+            "examples": ["Cities: Skylines", "Planet Coaster", "Two Point Hospital"],
+            "subgenres": ["City Builder", "Tycoon Game", "Colony Sim"],
+            "keyFeatures": ["Liberdade criativa", "Sistemas complexos", "Visão macro", "Otimização e eficiência"]
+        }
+    },
+    {
+        "id": 45,
+        "name": "Dedução Social",
+        "releaseDate": "2010s",
+        "description": "Jogos multiplayer onde os jogadores devem trabalhar juntos para atingir um objetivo, enquanto um ou mais impostores tentam sabotá-los.",
+        "details": {
+            "mechanics": ["Blefe", "Comunicação", "Investigação", "Votação e eliminação"],
+            "examples": ["Among Us", "Town of Salem", "Deceit"],
+            "subgenres": [],
+            "keyFeatures": ["Interação social intensa", "Tensão e desconfiança", "Jogabilidade baseada em comunicação", "Partidas rápidas"]
+        }
+    },
+    {
+        "id": 46,
+        "name": "Auto Battler (Auto Chess)",
+        "releaseDate": "2019",
+        "description": "Jogos de estratégia onde os jogadores montam equipes de heróis que lutam automaticamente contra as equipes de outros jogadores.",
+        "details": {
+            "mechanics": ["Compra e venda de unidades", "Sinergia de classes/raças", "Posicionamento de unidades", "Economia de ouro"],
+            "examples": ["Teamfight Tactics (TFT)", "Hearthstone Battlegrounds", "Dota Underlords"],
+            "subgenres": [],
+            "keyFeatures": ["Estratégia de composição", "Gerenciamento de economia", "Sorte e adaptação", "Competitivo"]
+        }
+    },
+    {
+        "id": 47,
+        "name": "Point-and-Click",
+        "releaseDate": "1980s",
+        "description": "Aventuras gráficas onde o jogador interage com o mundo principalmente através do mouse, clicando para mover, examinar e usar itens.",
+        "details": {
+            "mechanics": ["Resolução de quebra-cabeças", "Coleta e combinação de itens", "Diálogos com NPCs", "Exploração de cenários"],
+            "examples": ["The Secret of Monkey Island", "Broken Sword", "Grim Fandango"],
+            "subgenres": ["Adventure Game"],
+            "keyFeatures": ["Narrativa forte", "Humor e carisma", "Quebra-cabeças inteligentes", "Arte estilizada"]
+        }
+    },
+    {
+        "id": 48,
+        "name": "Extração (Extraction Shooter)",
+        "releaseDate": "2017",
+        "description": "Jogos de tiro multiplayer onde o objetivo é entrar em um mapa, coletar itens valiosos (loot) e extrair com vida, competindo contra outros jogadores e IA.",
+        "details": {
+            "mechanics": ["Alto risco, alta recompensa", "Perda de equipamento na morte", "Combate tático (PvPvE)", "Gerenciamento de inventário"],
+            "examples": ["Escape from Tarkov", "Hunt: Showdown", "The Division (Dark Zone)"],
+            "subgenres": ["Tactical Shooter"],
+            "keyFeatures": ["Tensão extrema", "Jogabilidade punitiva", "Economia persistente", "Planejamento de incursão"]
+        }
+    },
+    {
+        "id": 49,
+        "name": "Hero Shooter",
+        "releaseDate": "2016",
+        "description": "Jogos de tiro baseados em equipes onde os jogadores escolhem 'heróis' com habilidades e papéis únicos.",
+        "details": {
+            "mechanics": ["Habilidades únicas por personagem", "Trabalho em equipe", "Combate baseado em objetivos", "Sinergia de habilidades (ultimates)"],
+            "examples": ["Overwatch 2", "Valorant", "Apex Legends"],
+            "subgenres": ["FPS", "TPS"],
+            "keyFeatures": ["Elenco de personagens diversificado", "Estratégia de equipe", "Foco em objetivos", "Gameplay dinâmico"]
+        }
+    },
+    {
+        "id": 50,
+        "name": "Looter Shooter",
+        "releaseDate": "2009",
+        "description": "Jogos que combinam mecânicas de tiro com a busca incessante por equipamentos (loot) cada vez melhores para fortalecer o personagem.",
+        "details": {
+            "mechanics": ["Ciclo de jogo (gameplay loop) de loot", "Progressão de personagem", "Missões repetíveis", "Cooperativo online"],
+            "examples": ["Destiny 2", "Borderlands 3", "Warframe"],
+            "subgenres": ["Action RPG", "Shared World Shooter"],
+            "keyFeatures": ["Progressão viciante", "Customização de build", "Conteúdo de fim de jogo (endgame)", "Jogabilidade cooperativa"]
+        }
+    },
+    {
+        "id": 51,
+        "name": "Walking Simulator",
+        "releaseDate": "2010s",
+        "description": "Jogos focados na exploração e na narrativa, com pouca ou nenhuma mecânica de desafio tradicional. A ênfase está em caminhar pelo ambiente para desvendar a história.",
+        "details": {
+            "mechanics": ["Exploração", "Narrativa ambiental", "Interação mínima", "Atmosfera"],
+            "examples": ["What Remains of Edith Finch", "Firewatch", "Gone Home"],
+            "subgenres": ["Narrative Adventure"],
+            "keyFeatures": ["História imersiva", "Foco na atmosfera", "Experiência contemplativa", "Arte e som como protagonistas"]
+        }
+    },
+    {
+        "id": 52,
+        "name": "Sandbox de Física",
+        "releaseDate": "2000s",
+        "description": "Jogos que fornecem um ambiente e um conjunto de ferramentas baseadas em física, permitindo que os jogadores experimentem e criem livremente sem um objetivo definido.",
+        "details": {
+            "mechanics": ["Manipulação de objetos", "Simulação de física realista", "Criação de engenhocas", "Experimentação"],
+            "examples": ["Garry's Mod", "People Playground", "Teardown"],
+            "subgenres": ["Sandbox"],
+            "keyFeatures": ["Liberdade criativa total", "Jogabilidade emergente", "Potencial para caos e humor", "Forte suporte da comunidade (mods)"]
+        }
     }
 ]
